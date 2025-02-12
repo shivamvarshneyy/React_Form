@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a67a7a;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap : 0.75rem;
+  margin-top: 10rem;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 0.35rem;
+  font-size: 1.3rem;
+}
+.input{
+  background-color: white;
+  color: black;
+  font-size: 2.5rem;
+  /* width: 50%; */
+  text-decoration: none;
+  border: 1px solid black;
+  
+}
+.textarea{
+  font-size: 2.5rem;
+  color: aliceblue;
+}
+
